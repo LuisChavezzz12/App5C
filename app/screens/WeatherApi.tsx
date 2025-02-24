@@ -79,10 +79,9 @@ const clima = () => {
                     <View style={[styles.card, { backgroundColor: getBackgroundColor(item.maxTemp) }]}>
                         <Text style={styles.text}>{item.dayOfWeek}</Text>
                         <Text style={styles.text}>{item.date}</Text>
-                        <Text style={styles.text}>Max: {item.maxTemp}°C</Text>
-                        <Text style={styles.text}>Min: {item.minTemp}°C</Text>
-                        <Text style={styles.text}>Lluvia: {item.rainChance}%</Text>
-                        <Text style={styles.text}>{item.condition}</Text>
+                        <Text style={styles.text}>Max: {item.maxTemp}°C / Min: {item.minTemp}°C</Text>
+                        <Text style={styles.text}>Probabilidad de Lluvia: {item.rainChance}%</Text>
+                        <Text style={styles.text}>Tiempo: {item.condition}</Text>
                     </View>
                 )}
             />
