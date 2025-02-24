@@ -27,21 +27,21 @@ const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
         justifyContent: 'space-evenly',
-        padding: 10,
+        padding: 5,
         width: '100%',
         borderColor: 'black',
         borderWidth: 2,
     },
     imagen: {
-        width: 100,
-        height: 100,
+        width: 200,
+        height: 130,
         borderRadius: 80,
         borderWidth: 2,
         borderColor: 'black',
 
     },
     titulo: {
-        fontSize: 30,
+        fontSize: 40,
         fontWeight: 'bold',
     }
 })

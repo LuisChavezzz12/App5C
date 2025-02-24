@@ -4,6 +4,7 @@ import React from 'react'
 type PropiedadesFooter = {
     fecha: string,
     telefono: string,
+    dedicatoria: string
 }
 
 const Footer = (props: PropiedadesFooter) => {
@@ -11,6 +12,7 @@ const Footer = (props: PropiedadesFooter) => {
         <View style={styles.container}>
             <Text style={styles.textos}>{props.fecha}</Text>
             <Text style={styles.textos}>{props.telefono}</Text>
+            <Text style={styles.textos}>{props.dedicatoria}</Text>
         </View>
     )
 }

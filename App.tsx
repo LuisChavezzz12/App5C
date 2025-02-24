@@ -1,26 +1,24 @@
 import { Button, StyleSheet, Text, TextInput, View } from "react-native";
 import Header from "./app/Components/Header";
 import Footer from "./app/Components/Footer";
-import Login from "./app/screens/Login";
-import Calculadora from "./app/screens/Calculadora";
-import Propinas from "./app/screens/Propinas";
+  import WeatherApi from "./app/screens/WeatherApi";
 
 export default function App() {
   return (
     <View style={estilos.container}>
       <Header
-        titulo="Calculadora"
+        titulo="Api Clima 5 Dias"
         nombre="Luis Jesus Chavez vargas"
-        imagen={require('./assets/img1.jpg')}
+        imagen={require('./assets/clima.jpg')}
       />
 
-      <Propinas />
+      <WeatherApi />
 
       <Footer
-        fecha="2021"
-        telefono="123-456-7890"
+        fecha="24/02/2025"
+        telefono="773-385-5315"
+        dedicatoria="Gracias por su preferencia"
       />
-
     </View>
 
   )
